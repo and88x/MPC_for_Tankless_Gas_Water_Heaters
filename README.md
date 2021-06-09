@@ -3,7 +3,7 @@ Model Predictive Control for Tankless Gas Water Heaters
 Andres Fernando Garcia
 6/9/2021
 
-<img src="./tankless_water_heater.jpg"
+<img src="./images/tankless_water_heater.jpg"
      height="40%" 
      width="40%"/>
 
@@ -26,10 +26,10 @@ made in Simulink to simulate the real system (see the image below). It
 has two inputs: power (controller output) and cold water flow rate. The
 model output is water temperature.
 
-![](./Simulink_System.png) The MPC model is take from the equation (15)
+![](./images/Simulink_System.png) The MPC model is take from the equation (15)
 of the previously mentioned article:
 
-![](./equation.JPG)
+![](./images/equation.JPG)
 
 ## Methodology
 
@@ -93,7 +93,7 @@ delays are multiples of the selected *Ts*. For the following images:
 
 The following response corresponds to an experiment with Np = 13:
 
-![](./test_13.jpg)
+![](./images/test_13.jpg)
 
 The following response corresponds to an experiment with Np = 50:
-![](./test_Np_50_Ts_025.jpg)
+![](./images/test_Np_50_Ts_025.jpg)
